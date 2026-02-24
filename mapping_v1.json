@@ -1,0 +1,76 @@
+{
+    "controller": "DDJ-FLX10_PRO",
+    "version": "1.0.4",
+    "mappings": [
+        {
+            "deck": 1,
+            "stems": [
+                {
+                    "name": "Vocals",
+                    "note": "0x90 0x01",
+                    "cc": 10,
+                    "action": "STEM_V_TOGGLE",
+                    "fx_action": "STEM_V_ECHO_OUT"
+                },
+                {
+                    "name": "Drums",
+                    "note": "0x90 0x02",
+                    "cc": 11,
+                    "action": "STEM_D_TOGGLE",
+                    "fx_action": "STEM_D_FILTER_PUNCH"
+                },
+                {
+                    "name": "Bass",
+                    "note": "0x90 0x03",
+                    "cc": 12,
+                    "action": "STEM_B_TOGGLE",
+                    "fx_action": "STEM_B_SUB_BOOST"
+                },
+                {
+                    "name": "Other",
+                    "note": "0x90 0x04",
+                    "cc": 13,
+                    "action": "STEM_O_TOGGLE",
+                    "fx_action": "STEM_O_REVERB_WASH"
+                }
+            ]
+        },
+        {
+            "deck": 2,
+            "stems": [
+                {
+                    "name": "Vocals",
+                    "note": "0x91 0x01",
+                    "cc": 20,
+                    "action": "STEM_V_TOGGLE",
+                    "fx_action": "STEM_V_ECHO_OUT"
+                },
+                {
+                    "name": "Drums",
+                    "note": "0x91 0x02",
+                    "cc": 21,
+                    "action": "STEM_D_TOGGLE",
+                    "fx_action": "STEM_D_FILTER_PUNCH"
+                },
+                {
+                    "name": "Bass",
+                    "note": "0x91 0x03",
+                    "cc": 22,
+                    "action": "STEM_B_TOGGLE",
+                    "fx_action": "STEM_B_SUB_BOOST"
+                },
+                {
+                    "name": "Other",
+                    "note": "0x91 0x04",
+                    "cc": 23,
+                    "action": "STEM_O_TOGGLE",
+                    "fx_action": "STEM_O_REVERB_WASH"
+                }
+            ]
+        }
+    ],
+    "modifiers": {
+        "shift_button": "0x90 0x1B",
+        "behavior": "LONG_PRESS_THRESHOLD_MS: 500"
+    }
+}

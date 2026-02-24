@@ -1,0 +1,10 @@
+audio-separator
+torch
+torchaudio
+demucs
+soundfile
+numpy
+fastapi
+uvicorn[standard]
+python-multipart
+scipy
